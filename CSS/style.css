@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+.header{
+    margin: 30px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+.header img{
+    height: 30px;
+}
+.header ul{
+    display: flex;
+    align-items: center;
+}
+.header li{
+    list-style: none;
+    margin: 20px;
+}
+.header a{
+    text-decoration: none;
+    color: #2c353a;
+    padding: 10px;
+    border-radius: 20px;
+}
+.header ul li a:hover{
+    color: white;
+    background-color:rgb(255, 153, 0);
+}
+.hero{
+    display: flex;
+    justify-content: space-around;
+}
+.hero1 {
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+}
+.button{
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+}
+.button a{
+    text-decoration: none;
+    color: #2c353a;
+}
+.button:hover{
+    color: white;
+    background-color: rgb(255, 153, 0);
+    font-weight: bold;
+}
+.main{
+    margin-top: 30px;
+    background-color: #212529;
+    color: white;
+    border: 2px solid orange;
+    padding: 10px;
+    text-align: center;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.main p{
+    color: darkgrey;
+}
+.services{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+    margin: 30px;
+    padding: 10px;
+}
+.services h2 a{
+    text-decoration: none;
+    color: #2c353a;
+}
+.services h2{
+    margin-bottom: 20px;
+}
+.services button{
+    margin-top: 50px;
+}
+.services p{
+    font-size: small;
+}
+.heroo img{
+    border-radius: 40px;
+    float: right;
+}
+.products{
+    padding: 40px;
+}
+.products h1{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    color: #2c353a;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 100px 100px;
+    gap: 40px; 
+}
+.box img{
+    height: 80px;
+}
+.item a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    opacity: 0.8;
+}
+.item a:hover{
+    color: red;
+    border-bottom: 1px solid orangered;
+    border-top: 1px solid orangered;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.quote{
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+}
+.quote a{
+    text-decoration: none;
+    color: black;
+}
+.quote:hover{
+    color: white;
+    background-color: rgb(255, 153, 0);
+    font-weight: bold;
+}
+.products{
+    border: 1px solid orange;
+
+}
+.products div{
+    text-align: center;
+    padding: 10px;
+}
+.coffee{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    background-color: aliceblue;
+
+}
+.coffee h1{
+    font-weight: bolder;
+    font-size:40px;
+}
+.coffee p{
+    text-align: center;
+    font-size: 16px;
+    line-height: 25px;
+    margin: 20px;
+    color: black;
+    opacity: 0.8;
+}
+.whatwedo{
+    padding: 30px;
+    height: 400px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 100px;
+}
+.wedo h1{
+    margin-bottom: 40px;
+}
+.wedo p{
+    text-align: justify;
+    color:black;
+    opacity: 0.8;
+}
+.wedo2 ul li{
+    line-height: 60px;
+    font-size: 15px;
+    color: black;
+    opacity: 0.8;
+}
+.webhouse{
+    padding: 40px;
+    background-color:wheat;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.webhouse h1{
+    color: #2c353a;
+}
+.webhouse a{
+    text-decoration: none;
+    color: #2c353a;
+    padding: 0px;
+    margin: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    word-spacing: px;
+    line-height: 25px;
+}
+.knowmore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 200px;
+    margin-bottom: 30px;
+    border-radius: 20px ;
+    font-weight: bold;
+    font-size: 15px;
+}
+.knowmore:hover{
+    background-color:rgb(255, 153, 0);
+}
+
+.footer{
+    height: 450px;
+    background-color:#2c353a;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 70px;
+}
+.footer1{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-size: 12px;
+}
+.footer1 p a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+.footer2{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.footer2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+.footer2 a:hover{
+ font-size: 13px;
+}
+.footer3{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.footer3 a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+.footer3 a:hover{
+    font-size: 13px;
+   }
+.footer4{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.footer4 a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+.footer4 a:hover{
+    font-size: 13px;
+   }
+.footer5{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.footer5 a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+.footer5 a:hover{
+    font-size: 13px;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}        
+
+/* media queries */
+@media (max-width: 1023px){
+    .header ul{
+        flex-direction: column;
+        align-items: flex-start;
+        position: absolute;
+        right: 0;
+        top: 20px;
+        background-color: white;
+
+        /* display: none; */
+    }
+
+    .header{
+        position: relative;
+    }
+}
+
+@media (max-width: 767px){
+    
+}
