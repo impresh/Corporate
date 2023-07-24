@@ -34,6 +34,7 @@
 .hero{
     display: flex;
     justify-content: space-around;
+    padding: 20px;
 }
 .hero1 {
     display:flex ;
@@ -60,7 +61,7 @@
     background-color: #212529;
     color: white;
     border: 2px solid orange;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
     height: 300px;
     display: flex;
@@ -71,13 +72,14 @@
 }
 .main p{
     color: darkgrey;
+    font-size: 3vw;
 }
 .services{
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 50px;
     margin: 30px;
-    padding: 10px;
+    padding: 20px;
 }
 .services h2 a{
     text-decoration: none;
@@ -244,6 +246,7 @@
     padding: 70px;
 }
 .footer1{
+    padding: 20px;
     display: flex;
     flex-direction: column;
     gap: 12px;
@@ -313,7 +316,7 @@
 }        
 
 /* media queries */
-@media (max-width: 1023px){
+/* @media (max-width: 1023px){
     .header ul{
         flex-direction: column;
         align-items: flex-start;
@@ -321,9 +324,9 @@
         right: 0;
         top: 20px;
         background-color: white;
-
+ */
         /* display: none; */
-    }
+    /* }
 
     .header{
         position: relative;
@@ -332,4 +335,4 @@
 
 @media (max-width: 767px){
     
-}
+} */

@@ -1,0 +1,17 @@
+.hero1{
+    align-items: center;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+}
+.hero2 img{
+    height: 100%;
+    width: 100%;
+}
+.services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
