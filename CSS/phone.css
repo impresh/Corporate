@@ -4,14 +4,103 @@
 .hero{
     display: flex;
     flex-direction: column;
+    width: auto;
 }
 .hero2 img{
-    height: 100%;
-    width: 100%;
+    height: auto;
+    width: auto;
+}
+.main{
+    height: auto;
+    width: auto;
 }
 .services{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: auto;
+}
+.services{
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.products{
+    height: auto;
+    width: auto;
+}
+.products h1{
+    text-align: center;
+}
+.coffee{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.whatwedo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 5px;
+    height: auto;
+    gap: 30px;
+}
+
+.footer1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 5px;
+}
+
+.footer2 a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
+
+.footer2 a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
+.footer3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer5{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
