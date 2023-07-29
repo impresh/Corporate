@@ -1,28 +1,20 @@
-<<<<<<< HEAD
-.
-=======
 .hero1{
     align-items: center;
 }
 .hero{
     display: flex;
     flex-direction: column;
-    width: auto;
 }
 .hero2 img{
-    height: auto;
-    width: auto;
+    height: 100%;
+    width: 100%;
 }
-.main{
-    height: auto;
-    width: auto;
-}
+/* .main{
+    height: 200px;
+} */
 .services{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: auto;
 }
 .services{
     font-size: small;
@@ -30,10 +22,6 @@
     justify-content: center;
     text-align: center;
     align-items: center;
-}
-.products{
-    height: auto;
-    width: auto;
 }
 .products h1{
     text-align: center;
@@ -43,6 +31,7 @@
     flex-direction: column;
     text-align: center;
 }
+
 .whatwedo{
     display: flex;
     flex-direction: column;
@@ -57,7 +46,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: 5px;
     height: auto;
     gap: 30px;
 }
@@ -67,7 +55,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: 5px;
+    font-size: 15px;
 }
 
 .footer2 a{
@@ -75,7 +63,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: 10px;
+    font-size: 15px;
 }
 
 .footer2 a{
@@ -83,28 +71,33 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: 10px;
+    font-size: 15px;
 }
-.footer3{
+.footer3 a{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
+    font-size: 15px;
+
 }
 
-.footer4{
+.footer4 a{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-size: 15px;
+
 }
 
-.footer5{
+.footer5 a{ 
     
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-size: 15px;
+
 }
->>>>>>> c597bf9484b317ac35e07764629caf58ae0987c5
